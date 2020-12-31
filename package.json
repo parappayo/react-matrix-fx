@@ -1,0 +1,11 @@
+{
+  "name": "@parappayo/react-matrix-fx",
+  "version": "1.0.0",
+  "description": "Contains a Matrix effect style canvas element",
+  "main": "MatrixFx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Estey",
+  "license": "MIT"
+}
