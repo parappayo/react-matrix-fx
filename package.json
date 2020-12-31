@@ -1,14 +1,21 @@
 {
   "name": "@parappayo/react-matrix-fx",
+  "main": "lib/MatrixFx.js",
   "version": "1.0.0",
+  "author": "Jason Estey",
+  "license": "MIT",
   "description": "Contains a Matrix effect style canvas element",
-  "main": "MatrixFx.jsx",
   "dependencies": {
     "react": "^16.8.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10"
   },
-  "author": "Jason Estey",
-  "license": "MIT"
+  "scripts": {
+  	"build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
