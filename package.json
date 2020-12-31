@@ -2,7 +2,10 @@
   "name": "@parappayo/react-matrix-fx",
   "version": "1.0.0",
   "description": "Contains a Matrix effect style canvas element",
-  "main": "MatrixFx.js",
+  "main": "MatrixFx.jsx",
+  "dependencies": {
+    "react": "^16.8.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
